@@ -33,10 +33,10 @@
   This app is built to be private by design.</p>
 
   <h2>What we collect</h2>
-  <p>The app has no user accounts, no analytics, no advertising and no third-party
-  tracking, and we never see your documents. We do not sell or share personal data
-  with anyone. The only information that leaves your device is what is needed to sell
-  and restore a Premium subscription, described in the next section.</p>
+  <p>The app has no user accounts, no advertising, no behavioural tracking and no
+  analytics SDK inside it, and we never see your documents. We do not sell or share
+  personal data with anyone. The only information that leaves your device is what is
+  needed to sell and restore a Premium subscription, described in the next section.</p>
 
   <h2>Subscriptions and purchases</h2>
   <p>Premium is an auto-renewing in-app subscription. <strong>Apple</strong> processes
@@ -56,8 +56,12 @@
     <li>your IP address, from which your store country is derived.</li>
   </ul>
   <p>This exists so that your subscription keeps working after a reinstall or on another
-  device. It is never used for advertising or profiling, and it is never connected to the
-  contents of your documents, which do not leave your device at all. We do not enable
+  device. RevenueCat also shows us subscription statistics, such as how many
+  subscriptions are active or were cancelled, which is how we tell whether the app pays
+  for itself. Those figures are about subscriptions rather than about people, and we
+  cannot trace them back to you.</p>
+  <p>None of it is used for advertising or profiling, and none of it is ever connected to
+  the contents of your documents, which do not leave your device at all. We do not enable
   advertising identifiers, and the app never asks to track you.</p>
 
   <h2>Your documents stay on your device</h2>
@@ -98,10 +102,10 @@
   («мы»). Приложение изначально построено вокруг принципа приватности.</p>
 
   <h2>Какие данные мы собираем</h2>
-  <p>В приложении нет учётных записей, аналитики, рекламы и стороннего отслеживания,
-  а ваши документы мы не видим. Персональные данные мы никому не продаём и не
-  передаём. Единственное, что покидает ваше устройство, нужно для продажи и
-  восстановления подписки Premium и описано в следующем разделе.</p>
+  <p>В приложении нет учётных записей, рекламы, поведенческого отслеживания и
+  аналитических SDK, а ваши документы мы не видим. Персональные данные мы никому не
+  продаём и не передаём. Единственное, что покидает ваше устройство, нужно для продажи
+  и восстановления подписки Premium и описано в следующем разделе.</p>
 
   <h2>Подписки и покупки</h2>
   <p>Premium — это автопродлеваемая подписка внутри приложения. Платёж обрабатывает
@@ -122,11 +126,14 @@
     страна, язык;</li>
     <li>ваш IP-адрес, по которому определяется страна магазина.</li>
   </ul>
-  <p>Это нужно только для того, чтобы подписка продолжала работать после переустановки
-  или на другом устройстве. Эти данные не используются для рекламы и профилирования и
-  никогда не связываются с содержимым ваших документов, которое вообще не покидает
-  устройство. Рекламные идентификаторы мы не включаем, и приложение никогда не
-  запрашивает разрешение на отслеживание.</p>
+  <p>Это нужно для того, чтобы подписка продолжала работать после переустановки или на
+  другом устройстве. Кроме того, RevenueCat показывает нам статистику по подпискам —
+  сколько их активно и сколько отменено, — по ней мы понимаем, окупается ли приложение.
+  Эти цифры про подписки, а не про людей, и связать их с вами мы не можем.</p>
+  <p>Ничего из перечисленного не используется для рекламы и профилирования и никогда не
+  связывается с содержимым ваших документов, которое вообще не покидает устройство.
+  Рекламные идентификаторы мы не включаем, и приложение никогда не запрашивает
+  разрешение на отслеживание.</p>
 
   <h2>Документы остаются на вашем устройстве</h2>
   <p>Сканирование, распознавание текста (OCR), редактирование, подпись и заполнение
